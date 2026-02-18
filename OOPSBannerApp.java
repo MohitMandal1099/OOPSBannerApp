@@ -1,18 +1,21 @@
 /**
  * OOPSBannerApp
  * 
- * This class prints "OOPS" to the console.
+ * This class prints "OOPS" in banner format.
  * 
- * @author YourName
- * @version 1.0
+ * @author Mohit
+ * @version 2.0
  */
 public class OOPSBannerApp {
 
-    /**
-     * Main method - Entry point of the application
-     * @param args command-line arguments
-     */
     public static void main(String[] args) {
-        System.out.println("OOPS");
+
+        System.out.println("  *****     *****    ******    *****  ");
+        System.out.println(" *     *   *     *   *     *  *     * ");
+        System.out.println(" *     *   *     *   *     *  *       ");
+        System.out.println(" *     *   *     *   ******    *****  ");
+        System.out.println(" *     *   *     *   *         *     *");
+        System.out.println(" *     *   *     *   *         *     *");
+        System.out.println("  *****     *****    *          ***** ");
     }
 }
